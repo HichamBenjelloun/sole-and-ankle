@@ -55,15 +55,23 @@ const Link = styled.a`
   color: inherit;
 `;
 
-const Wrapper = styled.article``;
+const Wrapper = styled.article`
+  width: 370px;
+`;
 
 const ImageWrapper = styled.div`
   position: relative;
+  width: 100%;
 `;
 
-const Image = styled.img``;
+const Image = styled.img`
+  width: 100%;
+  height: auto;
+`;
 
 const Row = styled.div`
+  display: flex;
+  justify-content: space-between;
   font-size: 1rem;
 `;
 
